@@ -1,15 +1,49 @@
+* {
+    background-color: lightslategray;
+}
+
 .hide {
     display: none;
 }
 .left {
     float: left;
+    position: relative;
+    left: 32%;
 }
 .right {
     float: right;
+    position: relative;
+    right: 32%;
 }
+
+.right *, .left *, .top * {
+    background-color: palegoldenrod;
+    text-align: center;
+}
+
+.top {
+    text-align: center;
+    width: 300px;
+    margin: 10px auto 50px auto;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+.right, .left {
+    background-color: palegoldenrod;
+    width: 175px;
+    height: 175px;
+}
+
 .clear {
     clear: both;
 }
 #reset-container, h1 {
     text-align: center;
+}
+
+button {
+    margin: 15px 0px;
 }

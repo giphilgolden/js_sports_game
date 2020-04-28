@@ -20,6 +20,7 @@ teamoneShootButton.addEventListener("click", function() {
 })
 
 teamtwoShootButton.addEventListener("click", function() {
+
     let twonewCounterValue = Number(teamtwoNumshots.innerHTML) + 1;
     teamtwoNumshots.innerHTML = twonewCounterValue;
     if (Math.random() * 100 < 10) {
